@@ -103,7 +103,7 @@ void l2_initialize()
   for (int i=0; i < L2_NUM_CACHE_ENTRIES; i++){
      l2_cache[i].v_d_tag &= ~(L2_VBIT_MASK);
   }
-  //CODE HERE
+  
 }
 
 
